@@ -15,7 +15,7 @@
 
 	<artifactId>cc-hongz-ztools-bom</artifactId>
 	<name>${project.artifactId}</name>
-	<description>ztools BOM（对齐 hutool-bom，统一管理各子模块版本，可通过 exclude 排除不需要的模块）</description>
+	<description>ztools BOM（统一管理各子模块版本，可通过 exclude 排除不需要的模块）</description>
 
 	<dependencyManagement>
 		<dependencies>
