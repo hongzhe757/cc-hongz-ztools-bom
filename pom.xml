@@ -19,101 +19,121 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- ztools 核心工具类库 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-core</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 动态代理 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-aop</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 布隆过滤器 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-bloomFilter</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 缓存 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-cache</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 加解密 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-crypto</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 数据库 ORM -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-db</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 敏感词过滤 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-dfa</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 扩展工具 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-extra</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools HTTP 客户端 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-http</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 日志门面 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-log</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 脚本引擎 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-script</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 配置读取 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-setting</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 系统信息 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-system</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 定时任务 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-cron</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools JSON 序列化 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-json</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools Office 文档 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-poi</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools 验证码 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-captcha</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools Socket 通信 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-socket</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools JWT 令牌 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-jwt</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools AI 调用 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
 				<artifactId>cc-hongz-ztools-ai</artifactId>
@@ -123,82 +143,102 @@
 	</dependencyManagement>
 
 	<dependencies>
+		<!-- ztools 核心工具类库 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-core</artifactId>
 		</dependency>
+		<!-- ztools 动态代理 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-aop</artifactId>
 		</dependency>
+		<!-- ztools 布隆过滤器 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-bloomFilter</artifactId>
 		</dependency>
+		<!-- ztools 缓存 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-cache</artifactId>
 		</dependency>
+		<!-- ztools 加解密 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-crypto</artifactId>
 		</dependency>
+		<!-- ztools 数据库 ORM -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-db</artifactId>
 		</dependency>
+		<!-- ztools 敏感词过滤 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-dfa</artifactId>
 		</dependency>
+		<!-- ztools 扩展工具 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-extra</artifactId>
 		</dependency>
+		<!-- ztools HTTP 客户端 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-http</artifactId>
 		</dependency>
+		<!-- ztools 日志门面 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-log</artifactId>
 		</dependency>
+		<!-- ztools 脚本引擎 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-script</artifactId>
 		</dependency>
+		<!-- ztools 配置读取 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-setting</artifactId>
 		</dependency>
+		<!-- ztools 系统信息 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-system</artifactId>
 		</dependency>
+		<!-- ztools 定时任务 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-cron</artifactId>
 		</dependency>
+		<!-- ztools JSON 序列化 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-json</artifactId>
 		</dependency>
+		<!-- ztools Office 文档 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-poi</artifactId>
 		</dependency>
+		<!-- ztools 验证码 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-captcha</artifactId>
 		</dependency>
+		<!-- ztools Socket 通信 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-socket</artifactId>
 		</dependency>
+		<!-- ztools JWT 令牌 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-jwt</artifactId>
 		</dependency>
+		<!-- ztools AI 调用 -->
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-ai</artifactId>
