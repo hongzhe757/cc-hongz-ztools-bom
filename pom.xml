@@ -115,6 +115,12 @@
 				<artifactId>cc-hongz-ztools-poi</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!-- ztools PDF -->
+			<dependency>
+				<groupId>cc.hongz</groupId>
+				<artifactId>cc-hongz-ztools-pdf</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<!-- ztools 验证码 -->
 			<dependency>
 				<groupId>cc.hongz</groupId>
@@ -222,6 +228,11 @@
 		<dependency>
 			<groupId>cc.hongz</groupId>
 			<artifactId>cc-hongz-ztools-poi</artifactId>
+		</dependency>
+		<!-- ztools PDF -->
+		<dependency>
+			<groupId>cc.hongz</groupId>
+			<artifactId>cc-hongz-ztools-pdf</artifactId>
 		</dependency>
 		<!-- ztools 验证码 -->
 		<dependency>
